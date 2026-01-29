@@ -6,6 +6,10 @@ const numberTwo = "2.30";
 
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
+const parsedOne = parseFloat(numberOne)
+const parsedtwo = parseFloat(numberTwo)
+const numberTotal = parsedOne+parsedtwo
+console.log(numberTotal)
 
 
 // --------------------------------------
@@ -13,6 +17,12 @@ const numberTwo = "2.30";
 
 const anotherNumberOne = "1.10";
 const anotherNumberTwo = "2.30";
+
+const parsedAnotherNumberOne = parseFloat(anotherNumberOne)
+const parsedAnotherNumberTwo = parseFloat(anotherNumberTwo)
+const anotherNumberTotal = parsedAnotherNumberOne + parsedAnotherNumberTwo
+
+console.log(anotherNumberTotal)
 
 
 // --------------------------------------
@@ -24,6 +34,10 @@ const three = 98;
 
 // Show in the console the avg. with 5 decimals
 
+const average = ((one + two + three)/3).toFixed(5)
+
+console.log(average)
+
 
 
 
@@ -32,6 +46,9 @@ const three = 98;
 
 const letters = "abc";
 // Get me the character "c"
+const letterC = letters.charAt(2)
+
+console.log(letterC)
 
 
 
@@ -42,6 +59,9 @@ const letters = "abc";
 const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
+const capitalisedFact = fact.replace("javascript", "Javascript")
+
+console.log(capitalisedFact)
 
 
 // --------------------------------------

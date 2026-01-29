@@ -10,6 +10,7 @@ const lastName = "Latif";
 // show in the console
 // My first name is Anders and my last name is Latif
 
+//backticks, String template literal, string interpolation
 console.log(`My first name is ${firstName} and my last name is ${lastName}`)
 
 
